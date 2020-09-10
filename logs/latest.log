@@ -1,0 +1,58 @@
+[20:43:35] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[20:43:35] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:43:35] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:43:35] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:43:35] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20:43:35] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20:43:35] [main/INFO]: Reloading ResourceManager: Default
+[20:43:36] [Worker-Main-14/INFO]: Loaded 7 recipes
+[20:43:37] [Worker-Main-14/INFO]: Loaded 927 advancements
+[20:43:39] [Server thread/INFO]: Starting minecraft server version 1.16.3
+[20:43:39] [Server thread/INFO]: Loading properties
+[20:43:39] [Server thread/INFO]: Default game type: SURVIVAL
+[20:43:39] [Server thread/INFO]: Generating keypair
+[20:43:39] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_261]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_261]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_261]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_261]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_261]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_261]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_261]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_261]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_261]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_261]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_261]
+	at zg$1.run(SourceFile:89) [server.jar:?]
+[20:43:40] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:43:40] [Server thread/INFO]: Using default channel type
+[20:43:41] [Server thread/INFO]: Preparing level "world"
+[20:43:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:43:44] [Server thread/INFO]: Preparing spawn area: 0%
+[20:43:44] [Server thread/INFO]: Preparing spawn area: 0%
+[20:43:44] [Server thread/INFO]: Preparing spawn area: 0%
+[20:43:44] [Server thread/INFO]: Preparing spawn area: 0%
+[20:43:44] [Server thread/INFO]: Preparing spawn area: 0%
+[20:43:44] [Server thread/INFO]: Preparing spawn area: 0%
+[20:43:45] [Server thread/INFO]: Preparing spawn area: 0%
+[20:43:45] [Server thread/INFO]: Preparing spawn area: 59%
+[20:43:46] [Server thread/INFO]: Time elapsed: 4778 ms
+[20:43:46] [Server thread/INFO]: Done (5.043s)! For help, type "help"
+[20:45:01] [User Authenticator #1/INFO]: UUID of player Crilluz is 34d51139-a1e3-4375-a651-5cae6009b783
+[20:45:01] [Server thread/INFO]: Crilluz[/127.0.0.1:53728] logged in with entity id 113 at (1248.6526611893087, 65.0, 100.68378894001208)
+[20:45:01] [Server thread/INFO]: Crilluz joined the game
+[20:46:47] [Server thread/INFO]: Crilluz lost connection: Disconnected
+[20:46:47] [Server thread/INFO]: Crilluz left the game
+[20:46:50] [Server thread/INFO]: Stopping server
+[20:46:50] [Server thread/INFO]: Saving players
+[20:46:50] [Server thread/INFO]: Saving worlds
+[20:46:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:46:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:46:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20:46:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:46:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20:46:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:46:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:46:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:46:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
